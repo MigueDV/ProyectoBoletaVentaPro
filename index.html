@@ -852,8 +852,8 @@
                 };
 
                 const agregarProducto = () => {
-                    if (!nuevoProducto.value.nombre || !nuevoProducto.value.cantidad) {
-                        alert('Ingresa al menos nombre y cantidad');
+                    if (!nuevoProducto.value.nombre) {
+                        alert('Ingresa al menos nombre');
                         return;
                     }
 
